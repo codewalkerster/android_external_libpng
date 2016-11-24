@@ -164,7 +164,7 @@ png_get_uint_16)(png_const_bytep buf)
    return (i);
 }
 #endif  /* TARGET_ARCH_ARM */
-#endif /* PNG_READ_INT_FUNCTIONS_SUPPORTED */
+#endif /* READ_INT_FUNCTIONS */
 
 /* Read and check the PNG file signature */
 void /* PRIVATE */
